@@ -1,0 +1,27 @@
+@charset "UTF-8";
+
+
+*{
+    margin: 0px;
+}
+
+header{
+    background-color: gray;
+}
+
+section{
+    background-color: yellow;
+    height: 300px;
+}
+
+.imagem{
+    background-color: blueviolet;
+}
+
+footer{
+    background-color: black;
+}
+
+footer > p{
+    color: white;
+}
