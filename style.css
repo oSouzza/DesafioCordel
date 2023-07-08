@@ -1,27 +1,97 @@
 @charset "UTF-8";
 
+@import url('https://fonts.googleapis.com/css2?family=Patrick+Hand&display=swap');
+/* font-family: 'Patrick Hand', cursive; */
+
+@import url('https://fonts.googleapis.com/css2?family=Lilita+One&family=Patrick+Hand&display=swap');
+/*font-family: 'Lilita One', cursive;
+font-family: 'Patrick Hand', cursive;*/
+
 
 *{
     margin: 0px;
 }
 
 header{
-    background-color: gray;
+    background-color: black;
+    height: 200px;
+}
+
+header > h1{
+    font-family: 'Lilita One', cursive;
+    font-weight: normal;
+    font-size: 4.2em;
+    text-align: center;
+    color: white;
+
+    padding-top: 50px;
+
+}
+
+header > p {
+    color: white;
+    text-align: center;
+    font-size: 1.2em;
+}
+
+header a {
+    text-decoration: none;
+    color: white;
+    font-weight: bolder;
 }
 
 section{
-    background-color: yellow;
-    height: 300px;
+    height: 450px;
+    padding: 60px 60px 60px 30px;
+
+    position: relative;
+
+}
+
+section > article {
+    height: 200px;
+    font-size: 2em;
+    font-family: 'Patrick Hand', cursive;
+
+    position: absolute;
+
+    left: 10%;
+    top: 20%;
 }
 
 .imagem{
-    background-color: blueviolet;
+    box-shadow: inset 7px -3px 20px 1px rgba(0, 0, 0, 0.452);
 }
+
+#primeira{
+    background: black url(imagens/background001.jpg) fixed;
+    background-position: center center;
+    background-size: cover;
+}
+
+#segunda{
+    background: black url(imagens/background002.jpg) fixed;
+    background-position: center center;
+    background-size: cover;
+}
+
+.imagem > article{
+    width: 320px;
+    height: 300px;
+    padding: 5px;
+    background-color: rgba(0, 0, 0, 0.199);
+    color: white;
+    text-shadow: 1px 1px rgba(0, 0, 0, 0.473);
+}
+
+
+
 
 footer{
     background-color: black;
 }
 
 footer > p{
+    text-align: center;
     color: white;
 }
